@@ -1,14 +1,16 @@
 {
-  "name": "wine-cellar-tracker",
+  "name": "wine-cellar-grid-ui",
   "version": "1.0.0",
-  "description": "Wine cellar tracking app",
+  "description": "Wine Cellar Tracker Grid UI",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "start": "serve -s build",
+    "build": "echo 'No build step needed for basic UI'"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "serve": "^14.0.1"
   }
 }

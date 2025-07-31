@@ -1,6 +1,7 @@
 version: "3"
 services:
-  wine-cellar:
+  wine-cellar-ui:
     build: .
     ports:
-      - "3000:80"
+      - "8210:3000"
+    restart: unless-stopped
